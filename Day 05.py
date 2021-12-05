@@ -17,6 +17,7 @@ for line in lines:
     elif y1 == y2:
         points = [(x, y1) for x in range(min(x1, x2), max(x1, x2)+1)]
         coordinates += Counter(points)
+    # Part Two
     elif (x1<x2) & (y1<y2):
         points = [(x1+i, y1+i) for i in range(x2-x1+1)]
         coordinates += Counter(points)
