@@ -1,6 +1,6 @@
-file = open('Day 08.txt')
 from collections import defaultdict
 
+file = open('Day 08.txt')
 # Part One
 # output = [line.rstrip().split(' | ')[1] for line in file]
 # values = []
